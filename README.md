@@ -1,12 +1,12 @@
 # Twitter data analytics 
-The World's largest democracy India has a lot of buzz on Twitter and other social media platforms this year. I collected tweets related to specific and main party 'BJP,' using the keywords, which were mainly practiced by the party. Keywords such as #chowkidaar, #Mainbhichowkidaar, etc., were intentionally posted by the party under its social media campaign. Thus I decided to gather for those and other keywords used by that specific party. I collected data for the entire month of April, and after that, I performed data visualization techniques to extract insights.
+The World's largest democracy India has a lot of buzz on Twitter and other social media platforms this year. I collected tweets related to specific and main party 'BJP,' using the keywords, which were mainly practiced by the party. Keywords such as #chowkidaar, #Mainbhichowkidaar, etc., were intentionally posted by the party under its social media campaign. Thus I decided to gather twitter data for those and other keywords used by that specific party. I collected data for the entire month of April, and after that, I performed data visualization techniques to extract insights.
 * Tweepy is used to stream the tweets.
 * I ran the script on a Linux server as a background process for 1 month. 
 * SQLite had been used to store the tweets. 
 * Textblob library is used to calculate subjectivity and polarity of tweets at the time of streaming. 
 * After one month I got enough data to play with. 
 * I exported SQLITE file to CSV and imported in python. 
-* Plotly is used for data visualization. 
+* Plotly is used for graphs because of its interactive and hover labeling capabalities. Plotly makes results more lively and insightful. 
 # Results
 * There are three main text fields about user location, description, and text of the tweet. I plotted word cloud of each to assess the 
   Frequent words and overall inclination of the data. Surprisingly I found that there are lot of people who have their location mentioned as Pakistan and Lahore. 
