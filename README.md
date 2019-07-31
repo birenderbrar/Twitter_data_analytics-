@@ -14,6 +14,7 @@ The World's largest democracy India has a lot of buzz on Twitter and other socia
    
 * Further I extracted the year of user sign and days of the tweet twitted from user_created and created fields respectively. These 
   two new variables provide us a lot of insights such as which users are more active in this data , users who signed up in 2008 or who signed up in 2018. Moreover, we extracted which days people tweeted most and Monday and Tuesday are on lead and which devices were mostly used to tweet. We observed the polarity and subjectivity distribution of tweets
+  
   ![](tweets_analysis/results/days.png)
   ![](tweets_analysis/results/devices.png)
   
