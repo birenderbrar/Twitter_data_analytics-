@@ -10,17 +10,16 @@ The World's largest democracy India has a lot of buzz on Twitter and other socia
 # Results
 * There are three main text fields about user location, description, and text of the tweet. I plotted word cloud of each to assess the 
   Frequent words and overall inclination of the data. Surprisingly I found that there are lot of people who have their location mentioned as Pakistan and Lahore. 
-   ----------pic of location 
+   ![](tweets_analysis/results/location.png)
    
 * Further I extracted the year of user sign and days of the tweet twitted from user_created and created fields respectively. These 
   two new variables provide us a lot of insights such as which users are more active in this data , users who signed up in 2008 or who signed up in 2018. Moreover, we extracted which days people tweeted most and Monday and Tuesday are on lead and which devices were mostly used to tweet. We observed the polarity and subjectivity distribution of tweets
-  
-  --------- pic of days 
+  ![](tweets_analysis/results/days.png)
+  ![](tweets_analysis/results/devices.png)
   
  * After observing all possible and potential continuos, categorical and text variables of data it was time to observe relations between differnet variables such as how polarity is affected by the user's followers, how polarity of tweets is distributed for the people who signed up in different years and tweets which are twitted on differnet days. There are more observations made between polarity, subjectivity and user followers count for different years etc. 
- 
- -------polarity vs user followers 
- ------- scatter matrix 
+ ![](tweets_analysis/results/polarity_vs_follwers.png)
+ ![](tweets_analysis/results/sactter_matrix.png)
 # Notes
 * I have provided the python tweet scraper code file, python data analysis code file of jupyter notebook, each cell contains specific 
   code related to different graphs, doc string is provided of each cell, to understand what is acheived by that code. 
